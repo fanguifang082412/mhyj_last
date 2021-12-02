@@ -1,0 +1,60 @@
+{
+  "uid" : "1c38798bd5b45a01",
+  "name" : "TestAddTeam.test_add_team_fail[info4]",
+  "fullName" : "test_audit_team_business.TestAddTeam.test_add_team_fail[info4]",
+  "historyId" : "aba9cb465793af71e170bb7f3580f2a1",
+  "time" : {
+    "start" : 1638350557298,
+    "stop" : 1638350575896,
+    "duration" : 18598
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Win102021FFRUNV"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "85684-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testClass",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAddTeam.test_add_team_fail[info4]"
+  }, {
+    "name" : "package",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c38798bd5b45a01.json",
+  "parameterValues" : [ ]
+}

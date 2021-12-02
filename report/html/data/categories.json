@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1220, 325). Other element would receive the click: <div class=\"el-loading-spinner\">...</div>\n  (Session info: chrome=92.0.4515.107)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64)\n",
+      "children" : [ {
+        "name" : "TestAddTeam.test_add_team_fail[info3]",
+        "uid" : "8946b9a04966df85",
+        "parentUid" : "61668733482433812d03583a0e0d042c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1638350551698,
+          "stop" : 1638350557297,
+          "duration" : 5599
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "61668733482433812d03583a0e0d042c"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

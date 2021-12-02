@@ -1,0 +1,127 @@
+{
+  "uid" : "a515c3ad67c72a3b",
+  "name" : "TestAuditTeam.test_audit_team_fail",
+  "fullName" : "test_audit_team_business.TestAuditTeam.test_audit_team_fail",
+  "historyId" : "2729206e5a46ad4f4f4191662209127f",
+  "time" : {
+    "start" : 1638350622809,
+    "stop" : 1638350638649,
+    "duration" : 15840
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入用户名",
+      "time" : {
+        "start" : 1638350631190,
+        "stop" : 1638350631238,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f09bc44deaf6aba5",
+        "name" : "输入用户名为：",
+        "source" : "f09bc44deaf6aba5.txt",
+        "type" : "text/plain",
+        "size" : 5
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1638350631238,
+        "stop" : 1638350631276,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "145c4210a79cbc3a",
+        "name" : "输入密码为：",
+        "source" : "145c4210a79cbc3a.txt",
+        "type" : "text/plain",
+        "size" : 15
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1638350631276,
+        "stop" : 1638350634897,
+        "duration" : 3621
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Win102021FFRUNV"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "85684-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testClass",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAuditTeam.test_audit_team_fail"
+  }, {
+    "name" : "package",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a515c3ad67c72a3b.json",
+  "parameterValues" : [ ]
+}

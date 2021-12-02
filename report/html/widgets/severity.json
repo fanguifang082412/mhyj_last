@@ -1,0 +1,101 @@
+[ {
+  "uid" : "8946b9a04966df85",
+  "name" : "TestAddTeam.test_add_team_fail[info3]",
+  "time" : {
+    "start" : 1638350551698,
+    "stop" : 1638350557297,
+    "duration" : 5599
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "76a6c1bccc129428",
+  "name" : "TestAuditTeam.test_audit_team_pass",
+  "time" : {
+    "start" : 1638350622808,
+    "stop" : 1638350622809,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4254c87caaf06e7a",
+  "name" : "TestAddTeam.test_add_team_fail[info0]",
+  "time" : {
+    "start" : 1638350505864,
+    "stop" : 1638350520615,
+    "duration" : 14751
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc0cda7d211b245",
+  "name" : "TestAddTeam.test_add_team_fail[info6]",
+  "time" : {
+    "start" : 1638350591124,
+    "stop" : 1638350618671,
+    "duration" : 27547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c38798bd5b45a01",
+  "name" : "TestAddTeam.test_add_team_fail[info4]",
+  "time" : {
+    "start" : 1638350557298,
+    "stop" : 1638350575896,
+    "duration" : 18598
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a277e474a665241",
+  "name" : "TestAddTeam.test_add_team_fail[info2]",
+  "time" : {
+    "start" : 1638350535999,
+    "stop" : 1638350551698,
+    "duration" : 15699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9746fd084531c1b",
+  "name" : "TestAddTeam.test_add_team_fail[info5]",
+  "time" : {
+    "start" : 1638350575896,
+    "stop" : 1638350591123,
+    "duration" : 15227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ae5bb83eba48f60",
+  "name" : "TestAddTeam.test_add_team_success[info0]",
+  "time" : {
+    "start" : 1638350488050,
+    "stop" : 1638350505862,
+    "duration" : 17812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a515c3ad67c72a3b",
+  "name" : "TestAuditTeam.test_audit_team_fail",
+  "time" : {
+    "start" : 1638350622809,
+    "stop" : 1638350638649,
+    "duration" : 15840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "244cdd8b1a7b8df5",
+  "name" : "TestAddTeam.test_add_team_fail[info1]",
+  "time" : {
+    "start" : 1638350520616,
+    "stop" : 1638350535998,
+    "duration" : 15382
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

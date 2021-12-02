@@ -1,0 +1,194 @@
+{
+  "aba9cb465793af71e170bb7f3580f2a1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c38798bd5b45a01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350557298,
+        "stop" : 1638350575896,
+        "duration" : 18598
+      }
+    } ]
+  },
+  "4f84b254d26ed5896ef54ec105ffa27a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "76a6c1bccc129428",
+      "status" : "skipped",
+      "statusDetails" : "Skipped: unconditional skip",
+      "time" : {
+        "start" : 1638350622808,
+        "stop" : 1638350622809,
+        "duration" : 1
+      }
+    } ]
+  },
+  "27eb39dc70d014594eafdedaf3cfaf56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fc0cda7d211b245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350591124,
+        "stop" : 1638350618671,
+        "duration" : 27547
+      }
+    } ]
+  },
+  "d4b2f6641767c2208d06e259e8d945ec" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4254c87caaf06e7a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350505864,
+        "stop" : 1638350520615,
+        "duration" : 14751
+      }
+    } ]
+  },
+  "cfba16f257df3ddb0c039787b33191a5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ae5bb83eba48f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350488050,
+        "stop" : 1638350505862,
+        "duration" : 17812
+      }
+    } ]
+  },
+  "dea639b0dddc51d2d4bf615a14e5685b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9746fd084531c1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350575896,
+        "stop" : 1638350591123,
+        "duration" : 15227
+      }
+    } ]
+  },
+  "e5f389bcb16d6eee73e0014561cf833c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "244cdd8b1a7b8df5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350520616,
+        "stop" : 1638350535998,
+        "duration" : 15382
+      }
+    } ]
+  },
+  "975b49abec4cbfcab55fbe945bf7f9f8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a277e474a665241",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350535999,
+        "stop" : 1638350551698,
+        "duration" : 15699
+      }
+    } ]
+  },
+  "527101b07060f84c4e2a51300aa16fa4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8946b9a04966df85",
+      "status" : "failed",
+      "statusDetails" : "WebDriverException: Message: unknown error: Element <span>...</span> is not clickable at point (1220, 325). Other element would receive the click: <div class=\"el-loading-spinner\">...</div>\n  (Session info: chrome=92.0.4515.107)\n  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.19041 x86_64)\n",
+      "time" : {
+        "start" : 1638350551698,
+        "stop" : 1638350557297,
+        "duration" : 5599
+      }
+    } ]
+  },
+  "2729206e5a46ad4f4f4191662209127f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a515c3ad67c72a3b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638350622809,
+        "stop" : 1638350638649,
+        "duration" : 15840
+      }
+    } ]
+  }
+}

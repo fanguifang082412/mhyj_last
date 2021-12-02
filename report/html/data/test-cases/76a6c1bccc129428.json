@@ -1,0 +1,62 @@
+{
+  "uid" : "76a6c1bccc129428",
+  "name" : "TestAuditTeam.test_audit_team_pass",
+  "fullName" : "test_audit_team_business.TestAuditTeam.test_audit_team_pass",
+  "historyId" : "4f84b254d26ed5896ef54ec105ffa27a",
+  "time" : {
+    "start" : 1638350622808,
+    "stop" : 1638350622809,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "Win102021FFRUNV"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "85684-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testClass",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestAuditTeam.test_audit_team_pass"
+  }, {
+    "name" : "package",
+    "value" : "test_audit_team_business"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76a6c1bccc129428.json",
+  "parameterValues" : [ ]
+}
