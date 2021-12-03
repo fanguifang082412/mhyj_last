@@ -40,7 +40,7 @@ class TestAddTeam:
         time.sleep(1)
         self.total_handle.init_add_team().input_team_yunying(info["team_yunying"])
         self.total_handle.init_add_team().tap_team_yunying_select()
-        time.sleep(2)
+        time.sleep(1)
         self.total_handle.init_add_team().tap_team_yunying_choose()
         time.sleep(1)
         self.total_handle.init_add_team().tap_team_date()
@@ -78,6 +78,49 @@ class TestAddTeam:
         assert_ele_feature = By.XPATH, '//*[@id="app"]/div[3]/div/div[1]/span'
         assert_ele = self.driver.find_element(*assert_ele_feature)
         assert True if assert_ele else False
+
+    @pytest.mark.parametrize("info", ActionElement.get_data("add_team_data", "add_team_url_null"))
+    def test_add_team_url_null(self, info):
+        self.total_handle.init_home().tap_volunteer_service()
+        time.sleep(1)
+        self.total_handle.init_volunteer_team().tap_volunteer_team()
+        self.total_handle.init_volunteer_team().switch_create_team_frame()
+        self.total_handle.init_volunteer_team().tap_create_team()
+        self.total_handle.init_add_team().input_team_name(info["team_name"])
+        self.total_handle.init_add_team().input_team_total_name(info["team_total_name"])
+        self.total_handle.init_add_team().input_team_creater(info["team_creater"])
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_yunying()
+        time.sleep(1)
+        self.total_handle.init_add_team().input_team_yunying(info["team_yunying"])
+        self.total_handle.init_add_team().tap_team_yunying_select()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_yunying_choose()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_date()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_date_confirm()
+        self.total_handle.init_add_team().tap_team_province()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_province_confirm()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_shi()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_shi_confirm()
+        time.sleep(1)
+        self.total_handle.init_add_team().tap_team_qu()
+        time.sleep(2)
+        self.total_handle.init_add_team().tap_team_qu_confirm()
+        self.total_handle.init_add_team().input_team_office_address(info["team_office_address"])
+        self.total_handle.init_add_team().input_team_connecter(info["team_connecter"])
+        self.total_handle.init_add_team().input_team_phone(info["team_phone"])
+        self.total_handle.init_add_team().tap_team_service()
+        self.total_handle.init_add_team().input_team_introduce(info["team_introduce"])
+        self.total_handle.init_add_team().tap_team_create_btn()
+        assert_ele_feature = By.XPATH, '//*[@id="app"]/div[3]/div/div[1]/span'
+        assert_ele = self.driver.find_element(*assert_ele_feature)
+        assert True if assert_ele else False
+
 
 
 
